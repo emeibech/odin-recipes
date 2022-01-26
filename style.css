@@ -14,3 +14,12 @@ p {
 a:link, a:visited {
         text-decoration: none;
 }
+button {
+    background-color: aquamarine;
+    font-size: larger;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+div.button-set {
+    margin-right: 45px;
+}
