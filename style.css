@@ -4,8 +4,7 @@
 
 body {
     background-color: rgb(190, 221, 215);
-    margin: 0 256px;
-    padding: 64px;
+    padding: 24px 320px;
 }
 
 .header {
@@ -22,6 +21,7 @@ body {
     margin-top: 48px;
     padding: 24px;
     flex-wrap: wrap;
+    font-weight: 300;
 }
 
 .right-links {
@@ -41,9 +41,10 @@ a:hover {
 
 .recipes {
     display: flex;
-    flex: 1 1 auto;
+    flex: 1;
     gap: 24px;
     align-items: center;
+    padding: 24px;
 }
 
 .img-link:hover {
